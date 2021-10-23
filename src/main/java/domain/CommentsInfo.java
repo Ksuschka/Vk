@@ -2,6 +2,9 @@ package domain;
 
 public class CommentsInfo {
     private int count;
-    private boolean canPost;
-    private boolean community;
+    private int canPost;
+    private int groupsCanPost;
+    private boolean canClose;
+    private boolean canOpen;
+    // + get/set на все поля
 }

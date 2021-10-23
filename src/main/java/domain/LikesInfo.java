@@ -2,5 +2,8 @@ package domain;
 
 public class LikesInfo {
     private int count;
-    private boolean userLikes;
+    private int userLikes;
+    private int canLike;
+    private int canPublish;
+    // + get/set на все поля
 }
